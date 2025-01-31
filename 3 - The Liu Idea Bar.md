@@ -434,3 +434,7 @@ If you want to learn even more about Typebot to do things like have it utilize t
 ---
 
 That's all for the Build-a-Bot workshop! If you're ready, you can start on the [RSVP Bot Project](Capstone%20Project)!
+
+
+
+
