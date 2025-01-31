@@ -16,4 +16,15 @@ Moreover, unlike ChatGPT, Typebots are not *artificially intelligent* (though th
 
 ---
 
-Ready to get started? [Let's go!](0%20-%20Getting%20Started.md)
+Ready to get started? [Let's go!](0%20-%20Getting%20Started)
+
+---
+
+Got lost? Here's a table of contents:
+
+- Introduction (this page)
+- [0. Getting Started](0%20-%20Getting%20Started)
+- [1. Hello, Typebot!](1%20-%20Hello%2C%20Typebot!)
+- [2. The RSVP Bot Project: The Hesam Celebration Party](Capstone%20Project)
+- [3. What's Your Name?](2%20-%20What's%20Your%20Name%3F)
+- [The RSVP Bot Project](Capstone%20Project)
