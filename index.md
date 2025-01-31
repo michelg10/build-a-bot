@@ -32,10 +32,10 @@ Got lost? Here's a table of contents:
 ---
 
 *Generative AI was used to assist in the ideation of this workshop. All writing and editing were done by humans.*
-
----
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 --- 

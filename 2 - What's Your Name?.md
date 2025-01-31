@@ -175,10 +175,10 @@ That was quite a lengthy section, so congratulations on making it through! You'v
 ---
 
 Ready to continue? [Let's get buzzed with the Liu Idea Bar!](3%20-%20The%20Liu%20Idea%20Bar)
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 --- 
