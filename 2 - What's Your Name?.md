@@ -2,7 +2,7 @@
 
 Our first Typebot greeted us quite merrily with a message and even an image, but it wasn't very smart. It never asked us anything, and every time we re-play the bot, it did and said the **exact same thing**.
 
-We'll be changing that up with a bot that asks for your name and greets you with the name that you provided using the power of *variables* (which you might recognize from programming and lightly from math. Don't worry! No cryptic code here!). [Here's a preview of the final bot we'll have by the end of this section](https://bot.lilie.link/what-s-your-name-oz4ezh8). Feel free to try it out before continnuing reading!
+We'll be changing that up with a bot that asks for your name and greets you with the name that you provided using the power of *variables* (which you might recognize from programming and lightly from math. Don't worry! No cryptic code here!). [Here's a preview of the final bot we'll have by the end of this section](https://bot.lilie.link/what-s-your-name-oz4ezh8). Feel free to try it out before continuing reading!
 
 ---
 

@@ -25,8 +25,8 @@ Got lost? Here's a table of contents:
 - Introduction (this page)
 - [0. Getting Started](0%20-%20Getting%20Started)
 - [1. Hello, Typebot!](1%20-%20Hello%2C%20Typebot!)
-- [2. The RSVP Bot Project: The Hesam Celebration Party](Capstone%20Project)
-- [3. What's Your Name?](2%20-%20What's%20Your%20Name%3F)
+- [2. What's Your Name?](2%20-%20What's%20Your%20Name%3F)
+- [3. The Liu Idea Bar](3%20-%20The%20Liu%20Idea%20Bar)
 - [The RSVP Bot Project](Capstone%20Project)
 
 ---
