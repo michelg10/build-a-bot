@@ -26,7 +26,7 @@ Now that we're back in the flow editor, let's start with the first thing the bot
 
 ---
 
-Now, the user must respond with a "Yes" or a "No". We *could* use an Inputs Text block for that, but since we only want the user choosing between a small number of options instead of having the user provide freeform text input, we can use an Inputs block more suited for that instead – Buttons.
+Now, the user must respond with a "Yes" or a "No". We *could* use a Inputs Text block for that, but since we only want the user choosing between a small number of options instead of having the user provide freeform text input, we can use a Inputs block more suited for that instead – Buttons.
 
 Buttons is suitable for when there's only a small amount (~2-5) of choices the user can choose. Buttons is **especially suitable** when you want the bot to take drastically different actions depending on what the user enters (we'll see why this is soon).
 
