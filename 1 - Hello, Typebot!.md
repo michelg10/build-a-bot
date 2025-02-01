@@ -8,7 +8,7 @@ Then, create a new Typebot by clicking the "Create a typebot" button. Then, you 
 
 ![1-create-a-typebot](1-create-a-typebot.png)
 
-Select "Start from scratch." You should now find yourself in the **flow editor**:
+Select "Start from scratch". You should now find yourself in the **flow editor**:
 
 ![1-flow-editor](1-flow-editor.png)
 
@@ -20,7 +20,7 @@ See the column of blocks on the left? That's the **Sidebar**, and it contains a 
 
 We'll start with the blocks in the **Bubbles** section in the Sidebar. Those blocks all make your bot **say something**. We'll be using the Text and Image blocks, but the rest should be pretty similar (aside from the Embed block, which is more complex but allows you to put a website *inside* of your Typebot), and you should feel free to explore these blocks yourself, with the help of Typebot's [official documentation](https://docs.typebot.io/get-started/introduction)!
 
-Let's add a Text block in the middle of the flow editor! To do this, click and drag the Text bubble into the flow editor. You should see something like this:
+Let's add a Text block in the middle of the **flow editor**! To do this, click and drag the Text bubble into the flow editor. You should see something like this:
 
 ![1-dragged-text-block](1-dragged-text-block.png)
 
@@ -81,7 +81,7 @@ And since we're trying to make the bot "say" (display?) an image, let's drag and
 As you can see, we have five options for images:
 
 1. Link: adding a URL for an image
-2. Upload: uploading your own image.
+2. Upload: uploading your own image
 3. Giphy: using a GIF from Giphy
 4. Unsplash: using a stock image from Unsplash
 5. Icon: using one of Typebot's built-in icons
