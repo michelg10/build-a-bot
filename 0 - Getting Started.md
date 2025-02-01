@@ -2,7 +2,7 @@
 
 First, open your browser of choice and head to [Lilie's Typebot site](https://typebot.lilie.link/signin) to sign up for an account. Click "Sign up for free," "Continue with Google," and sign in with your NetID. 
 
-**Make sure that you are not on the standard typebot.io site, and instead the Lilie typebot site. You can verify this by checking that the URL in your address bar contains [lilie.link](typebot.lilie.link)**.
+**Make sure that you are not on the standard typebot.io site but instead on the Lilie typebot site. You can verify this by checking that the URL in your address bar contains [lilie.link](typebot.lilie.link)**.
 
 After signing in, you should see a screen like **this**:
 
@@ -15,10 +15,10 @@ This is your **home screen**, where you'll see all the typebots you've created. 
 ---
 
 Ready to start building? [Let's build our first bot!](1%20-%20Hello%2C%20Typebot!)
+
  
+
  
- 
- 
- 
- 
---- 
+
+
+---

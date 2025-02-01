@@ -8,7 +8,7 @@ Then, create a new Typebot by clicking the "Create a typebot" button. Then, you 
 
 ![1-create-a-typebot](1-create-a-typebot.png)
 
-Select "Start from scratch". You should now find yourself in the **flow editor**:
+Select "Start from scratch." You should now find yourself in the **flow editor**:
 
 ![1-flow-editor](1-flow-editor.png)
 
@@ -20,7 +20,7 @@ See the column of blocks on the left? That's the **Sidebar**, and it contains a 
 
 We'll start with the blocks in the **Bubbles** section in the Sidebar. Those blocks all make your bot **say something**. We'll be using the Text and Image blocks, but the rest should be pretty similar (aside from the Embed block, which is more complex but allows you to put a website *inside* of your Typebot), and you should feel free to explore these blocks yourself, with the help of Typebot's [official documentation](https://docs.typebot.io/get-started/introduction)!
 
-Let's add a Text block into the **flow editor** in the middle! To do this, click and drag the Text bubble into the flow editor. You should see something like this:
+Let's add a Text block in the middle of the flow editor! To do this, click and drag the Text bubble into the flow editor. You should see something like this:
 
 ![1-dragged-text-block](1-dragged-text-block.png)
 
@@ -36,13 +36,13 @@ Now, let's try to **run** our Typebot! Click on the "Test" button on the top rig
 
 ![1-failed-initial-run](1-failed-initial-run.png)
 
-This is expected! Notice the "Start" block in the flow editor that's been there (those of you that remember using Scratch can view this as a "When green flag clicked" block)? That is the **start of your flow**. 
+This is expected! Notice the "Start" block in the flow editor that's been there (those of you who remember using Scratch can view this as a "When green flag clicked" block)? That is the **start of your flow**. 
 
-Think of "Start" as a mountaintop that a flow of water is going to go down; you'll control this "water" by "piping" it to various blocks. As the "water" flows, it'll activate each block it flows through. For example, when this "water" flows through the Text block, the bot says whatever is in the block!
+Think of "Start" as a mountaintop where a flow of water is going to go down; you'll control this "water" by "piping" it to various blocks. As the "water" flows, it'll activate each block it flows through. For example, when this "water" flows through the Text block, the bot says whatever is in the block!
 
 ---
 
-Now, let's pipe the flow from the Start block to the Text block. Click on the little circlular handle at the right edge of the Start block, and drag it onto the Text block.
+Now, let's pipe the flow from the Start block to the Text block. Click on the little circular handle at the right edge of the Start block, and drag it onto the Text block.
 
 *The keen-eyed among you may notice that you can either drag the flow to the text block itself or the enclosing group. Whichever one you drag it to doesn't matter in this case (I've personally dragged it onto the group, as you can see below). However, it **will** make a difference should you choose to put multiple blocks into a single group.*
 
@@ -52,7 +52,7 @@ Your flow should now look something like this:
 
 ![1-connected-flow](1-connected-flow.png)
 
-Now, let's test the bot again. We can do this by clicking on the "Restart" button on the testing sidebar on the right (highlighted with red below):
+Now, let's test the bot again. We can do this by clicking on the "Restart" button on the testing sidebar on the right (highlighted in red below):
 
 ![1-success-initial-run](1-success-initial-run.png)
 
@@ -62,7 +62,7 @@ You should see that the bot will now say "**Hello, Typebot!**" (or whatever you'
 
 To make the bot do anything, we need to add a block from the Sidebar. Since we're trying to make our bot **say something**, we should look at the **Bubbles** section of the Sidebar.
 
-And since we're trying to make the bot "say" (display?) an image, let's drag and drop a Image block from the sidebar into the flow editor, like so:
+And since we're trying to make the bot "say" (display?) an image, let's drag and drop an Image block from the sidebar into the flow editor, like so:
 
 ![1-dragged-image](1-dragged-image.png)
 
@@ -70,7 +70,7 @@ And since we're trying to make the bot "say" (display?) an image, let's drag and
 
 > ⚠️  **Be careful not to accidentally *group* blocks!**
 >
-> When dragging and dropping a block into the flow editor, be careful to not **drop it onto another block**, or they may group together. If you accidentally group two blocks together, you can ungroup them by dragging the block out of the group. 
+> When dragging and dropping a block into the flow editor, be careful not to **drop it onto another block**, or they may group together. If you accidentally group two blocks together, you can ungroup them by dragging the block out of the group. 
 >
 > You might find that your flow works, even when blocks are grouped together. Groups are an organizational feature in Typebot that lets you better structure your flow blocks; blocks that are grouped together are **implicitly connected in flow** (as if there's a grey arrow connecting each item in a group to the next item in a group).
 >
@@ -81,14 +81,14 @@ And since we're trying to make the bot "say" (display?) an image, let's drag and
 As you can see, we have five options for images:
 
 1. Link: adding a URL for an image
-2. Upload: uploading your own image
-3. Giphy: using an GIF from Giphy
+2. Upload: uploading your own image.
+3. Giphy: using a GIF from Giphy
 4. Unsplash: using a stock image from Unsplash
 5. Icon: using one of Typebot's built-in icons
 
-Since I'm looking for a celebratory "Hello!" GIF, I will select "Giphy" and search for an image to add. You can feel free to use any image you wish.
+Since I'm looking for a celebratory "Hello!" GIF: I will select "Giphy" and search for an image to add. You can feel free to use any image you wish.
 
-Now, like before, we need to **connect the image block with the flow** to make the bot actually display the image. Now, since we want the image displayed **after** the "Hello, Typebot!" text, we should **drag and drop the circlular handle on the right side of the "Hello, Typebot!" block to the image block**, like so:
+Now, like before, we need to **connect the image block with the flow** to make the bot actually display the image. Now, since we want the image displayed **after** the "Hello, Typebot!" text, we should **drag and drop the circular handle on the right side of the "Hello, Typebot!" block to the image block**, like so:
 
 ![1-final-flow](1-final-flow.png)
 
@@ -100,13 +100,13 @@ Now, like before, we need to **connect the image block with the flow** to make t
 
 ---
 
-Now that we've finished the flow, once again tap on "Restart" to re-run your bot and you should see your bot output an image:
+Now that we've finished the flow, once again tap on "Restart" to re-run your bot, and you should see your bot output an image:
 
 ![1-final-run](1-final-run.png)
 
 ---
 
-Now, let's move onto the final finishing touches, which will allow you to share your bot with everyone else! 
+Now, let's move on to the final finishing touches, which will allow you to share your bot with everyone else! 
 
 First, let's rename your bot to something more interesting. Click on the "My typebot" name in the top left corner and type something to edit the name. For example, I renamed mine to "Hello Typebot":
 
@@ -161,10 +161,10 @@ Pat yourself on the back because, by building this one bot, you've learned quite
 ---
 
 Ready for our next bot? [Next up: What's Your Name?](2%20-%20What's%20Your%20Name%3F)
+
  
+
  
- 
- 
- 
- 
---- 
+
+
+---
