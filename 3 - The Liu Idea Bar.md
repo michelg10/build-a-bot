@@ -26,7 +26,7 @@ Now that we're back in the flow editor, let's start with the first thing the bot
 
 ---
 
-Now, the user must respond with a "Yes" or a "No". We *could* use a Inputs Text block for that, but since we only want the user choosing between a small number of options instead of having the user provide freeform text input, we can use a Inputs block more suited for that instead – Buttons.
+Now, the user must respond with a "Yes" or a "No". We *could* use an Inputs Text block for that, but since we only want the user choosing between a small number of options instead of having the user provide freeform text input, we can use an Inputs block more suited for that instead – Buttons.
 
 Buttons is suitable for when there's only a small amount (~2-5) of choices the user can choose. Buttons is **especially suitable** when you want the bot to take drastically different actions depending on what the user enters (we'll see why this is soon).
 
@@ -78,9 +78,9 @@ It works precisely as intended, replying with a polite rejection followed by end
 >
 > As you might've noticed, the Default selection in the Buttons block is not editable, but still has a flow handle. What is this Default for? 
 >
-> The Default selection is **not** selectable by the user, and only serves as an **aid for you to make flows easier**. Essentially, any choice that is not explicitly flowed to anything will implicitly use the flow of the Default. 
+> The Default selection is **not** selectable by the user and only serves as an **aid for you to make flows easier**. Essentially, any choice that is not explicitly flowed to anything will implicitly use the flow of the Default. 
 >
-> So, if you have two selections (like we do above), connect the first one to a Bubbles Text block and connect the Default to an Inputs Text block but connect the second selection to nothing, choosing the second selection will lead to the Inputs Text block being flowed to next. 
+> So, if you have two selections (like we do above) and you connect the first one to a Bubbles Text block, connect the Default to an Inputs Text block, but connect the second selection to nothing, choosing the second selection will lead to the Inputs Text block being flowed to next. 
 >
 > If nothing is connected to the Default and nothing is connected to the choice, selecting the choice will simply end your bot.
 >
@@ -88,12 +88,12 @@ It works precisely as intended, replying with a polite rejection followed by end
 
 ---
 
-Now, let's move onto what the bot should do if the user *is* of age. Our planned flow from earlier notes that the bot should first ask the user for their name. That's almost exactly what we did in the previous section!
+Now, let's move on to what the bot should do if the user *is* of age. Our planned flow from earlier notes that the bot should first ask the user for their name. That's almost exactly what we did in the previous section!
 
 Recalling the previous section, we should:
 
 1. Use the Bubbles Text block to have the bot ask for the user's name
-2. Use the Inputs Text block to collect the user's name and storing it into a variable (like `user's name`) so we can actually use it later on
+2. Use the Inputs Text block to collect the user's name and store it into a variable (like `user's name`) so we can actually use it later on
 
 Okay! Let's start with the Bubbles Text block and connecting it to the first Buttons selection:
 
@@ -434,10 +434,10 @@ If you want to learn even more about Typebot to do things like have it utilize t
 ---
 
 That's all for the Build-a-Bot workshop! If you're ready, you can start on the [RSVP Bot Project](Capstone%20Project)!
+
  
+
  
- 
- 
- 
- 
---- 
+
+
+---
