@@ -1,6 +1,8 @@
 ## 3. The Liu Idea Bar
 
-Now that you know how to make your bots say things and even ask for and store messages from the user, let's try for something more complex: a bot that remotely takes orders for Hesam and I's secret new joint venture: The *Liu Idea Bar*. For a preview of the bot, [see here!](https://bot.lilie.link/ordering-bot-kxlpqvw)
+Now that you know how to make your bots say things and even ask for and store messages from the user, let's try for something more complex: a bot that remotely takes orders for **Hesam’s and my** secret new joint venture: The *Liu Idea Bar*. (Yes, we’re branching out into … questionable territory!)
+
+For a preview of the bot, [see here!](https://bot.lilie.link/ordering-bot-kxlpqvw)
 
 ---
 
@@ -26,7 +28,7 @@ Now that we're back in the flow editor, let's start with the first thing the bot
 
 ---
 
-Now, the user must respond with a "Yes" or a "No". We *could* use a Inputs Text block for that, but since we only want the user choosing between a small number of options instead of having the user provide freeform text input, we can use a Inputs block more suited for that instead – Buttons.
+Now, the user must respond with a "Yes" or a "No". We *could* use an Inputs Text block for that, but since we only want the user choosing between a small number of options instead of having the user provide freeform text input, we can use an Inputs block more suited for that instead – Buttons.
 
 Buttons is suitable for when there's only a small amount (~2-5) of choices the user can choose. Buttons is **especially suitable** when you want the bot to take drastically different actions depending on what the user enters (we'll see why this is soon).
 
@@ -101,7 +103,7 @@ Okay! Let's start with the Bubbles Text block and connecting it to the first But
 
 ---
 
-Now let's draw upon what we've learned in the previous section and add a Inputs Text block to collect the user's name, noting to save it in a variable (this time, feel free to name the variable whatever name you please!):
+Now let's draw upon what we've learned in the previous section and add an Inputs Text block to collect the user's name, noting to save it in a variable (this time, feel free to name the variable whatever name you please!):
 
 ![3-partial-name-collection](3-partial-name-collection.png)
 
@@ -206,7 +208,7 @@ Click on Continue with Google and connect your Rice account. You should be redir
 
 ![3-connected-account](3-connected-account.png)
 
-Before continuing, we must create a new spreadsheet first. Let's open a new tab, head to [Google Drive](drive.google.com), sign into our Rice account, and enter "My Drive".
+Before continuing, we must create a new spreadsheet first. Let's open a new tab, head to [Google Drive](https://drive.google.com), sign into our Rice account, and enter "My Drive".
 
 Right click on the top bar and select "Google Sheets":
 
@@ -216,7 +218,7 @@ Let's name this sheet "Liu Idea Bar Orders" and add two column titles: "Name" an
 
 ![3-filled-sheet](3-filled-sheet.png)
 
-Now that we've set up our sheet, let's return to Typebot, select "Pick a spreadsheet", select our new "Liu Idea Bar Order" sheet, and click "Select" to confirm:
+Now that we've set up our sheet, let's return to Typebot, select "Pick a spreadsheet", select our new "Liu Idea Bar Orders" sheet, and click "Select" to confirm:
 
 ![3-select-sheet](3-select-sheet.png)
 
@@ -294,9 +296,9 @@ Congratulations on finishing quite a long workshop! Over the course of this work
 - How to have your Typebot display an image of your choice
 - How to have your Typebot accept user input
 - The concept of a *variable*
-- How to have your Typebot do different things based on user input with variables
+- How to have your Typebot respond differently based on user input
 - How to have your Typebot respond to user choice
-- How to interface your Typebot with Google Sheets
+- How to integrate your Typebot with Google Sheets
 
 And of course, there's still a lot of other things that you can do with Typebot! Feel free to explore these using the [**official Typebot docs**](https://docs.typebot.io/get-started/introduction) or reading on to the bonus section!
 

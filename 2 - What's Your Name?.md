@@ -26,7 +26,7 @@ Let's test our bot by clicking the "Test" button on the top right. You should se
 
 Now, we need you to be able to **reply** to the bot. Like how the blocks in the **Bubbles** section of the Sidebar make your bot say something, the blocks in the **Inputs** section of the Sidebar prompt **you** to say something.
 
-Since we want you to reply back with a text message, let's **drag and drop a Text block onto the editor**.
+Since we want you to reply back with a text message, let's **drag and drop a Text block** (from **Inputs**) into the editor.
 
 Like the Bubbles Text block, you can see that you have a lot of options for customizing the text block. Let's change the placeholder text from the generic "Type your answer…" to something like "My name is …" (feel free to change it up as you see fit!):
 
