@@ -2,7 +2,7 @@
 
 ## ![This image will haunt me for the rest of my life](hesam.png)
 
-Surprise! Lilie has decided to hold it's annual *Hesam Celebration Party* to celebrate Hesam's birthday! And you, as a Typebot developer, have been tasked with creating the RSVP Bot for the party!
+Surprise! Lilie has decided to hold its annual *Hesam Celebration Party* to celebrate Hesam's birthday! And you, as a Typebot developer, have been tasked with creating the RSVP Bot for the party!
 
 Your bot should:
 

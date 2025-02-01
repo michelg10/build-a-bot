@@ -28,7 +28,7 @@ Within this highlighted text box is a message that your bot will say. Let's type
 
 You'll also notice that you have controls for styling your text (ignore the leftmost person icon for now. That'll come in handy later!). Feel free to play around with them!
 
-You should end up with a flow like this (I've chosen to bold-en my "Hello, Typebot!" text):
+You should end up with a flow like this (I've chosen to bolden my "Hello, Typebot!" text):
 
 ![1-filled-text-block](1-filled-text-block.png)
 

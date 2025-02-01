@@ -9,7 +9,7 @@ Now that you know how to make your bots say things and even ask for and store me
 Since our ordering bot will be more complex than the previous ones, I'll first detail exactly what our bot will do:
 
 1. The bot will ask the user if they're above the age of 21
-2. If not, the bot will simply decline to service the user (we unfortunately must still operate under regulation!)
+2. If not, the bot will simply decline to serve the user (we unfortunately must still operate under regulation!)
 3. Once the user has confirmed their age, the bot will ask the user for their name
 4. The bot will then ask the user what they want to order
 5. Lastly, the bot will add this information to a Google Sheets document
@@ -140,7 +140,7 @@ When building a Typebot, keep in mind what we've been doing so far:
 - Breaking the task down into atomic parts
 - Mapping what the bot needs to do to blocks
 - Connecting the block
-- **Test, test test!** Test every step of the way. Is your bot working? Did it suddenly stop working? What did you change?
+- **Test, test, test!** Test every step of the way. Is your bot working? Did it suddenly stop working? What did you change?
 
 Please do give this a shot before continuing; doing it yourself is extremely helpful in learning!
 
@@ -353,7 +353,7 @@ Before we get any input from our user, we should prompt the user first with a Bu
 
 ![3b-more-prompt](3b-more-prompt.png)
 
-Pop quiz!~ What block do you use when you want to present th euser between a small number of choices that might significantly alter your bot's flow?
+Pop quiz!~ What block do you use when you want to present the user between a small number of choices that might significantly alter your bot's flow?
 
 That's right – it's the Inputs Buttons block! Let's drag the Inputs Button block to the end of our flow and populate it with our "Yes" and "No" choices. 
 
